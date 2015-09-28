@@ -2,6 +2,7 @@ ul {
   list-style: none;
   
   margin: 50px auto;
+  padding: 0;
 
   text-align: center;
 }
@@ -9,12 +10,6 @@ li {
   display: block;
   
   margin: 20px 0;
-  
-  background: #ddd;
-  
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
 }
 a {
   display: block;
@@ -22,10 +17,15 @@ a {
   padding: 10px;
 
   border-bottom: 1px solid #aaa;
+  background: #ddd;
 
   font-size: 32px;
   color: #222;
   text-decoration: none;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 a:hover {
   border-bottom-color: transparent;
